@@ -1,15 +1,16 @@
 # Assignment II: SDD, BDD, and TDD, 3 methodologies in AI-Assisted Software Development
 
 # Student Information:
--Name: Wei-li Lin
--Student ID: 1123533
--Course: AI-Assisted Software Development
--Date: 2026-05-31
+-Name: Wei-li Lin \
+-Student ID: 1123533 \
+-Course: AI-Assisted Software Development \
+-Date: 2026-05-31  
 
 ## 1. Introduction
  In the current age of software development and computer science, artificial intelligence is gradually being involved. One could even say that AI is slowly dominating every aspect of the tech industry.
 
 ## 2. Definition of SDD 
+**SDD**, or Specification-Driven Development, is 
 
 ## 3. SDD: Student Grade Calculator
 
@@ -27,7 +28,7 @@
 
 
 ## 4. Definition of BDD
-
+The Behavior-Driven Development is
 
 ## 5. BDD: Student Grade Calculator
 
