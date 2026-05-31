@@ -13,6 +13,28 @@
 **SDD**, or Specification-Driven Development, is 
 
 ## 3. SDD: Student Grade Calculator
+The Student Grade Calculator computes a student's final score using weighted assessment via components and determines the corresponding letter grade.
+
+**Inputs**
+|Component|Range|Weight|
+| ------- |-----|------|
+|Assignment|0-100|30%  |
+|Midterm Exam|0-100|20%|
+|Final Exam|0-100|30%  |
+|Project   |0-100|20%|
+
+**Processing** \
+The final score is calculated using: \
+**Final Score= (Assignment * 0.30) + (Midterm * 0.20) + (Finals * 0.30) + (Project * 0.20)** \
+The calculated score is rounded to one decimal.
+
+**Grade Determination Rules**
+|Final Score|Letter Grade|
+|90 < Score < 100 | A |
+|80 < Score < 90  | B |
+|70 < Score < 80  | C |
+|60 < Score < 70  | D |
+|Score < 60       | F |
 
 ### 3.1 Goal
 
