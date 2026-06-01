@@ -218,6 +218,20 @@ Input validation should fail for Assignment is less than 0, out of valid range.
 |**Advantages**|Clear project scope & requirements|Improves communication between technical & non-technical members|Produces more reliable & maintainable code|
 
 ## 9. Reflection
+## 8. Reflection
+
+After learning about SDD, BDD, and TDD, I found that TDD is the easiest approach for me to understand. As an IT student, I am already familiar with testing programs by providing inputs and checking whether the outputs are correct. TDD follows a similar mindset since it focuses on defining test cases before implementation. By thinking about expected results first, it becomes easier to identify errors and verify that a system behaves as intended.
+
+When it comes to working with AI coding tools, I believe SDD is the most useful approach because it provides clear requirements and specifications. AI can generate code very quickly, but the quality of the generated result depends heavily on the instructions it receives. If requirements are vague, the AI may make assumptions that do not match the developer's intentions. A well-written SDD reduces ambiguity by clearly describing the system goals, inputs, outputs, and functional requirements.
+
+SDD can help reduce unclear AI prompts by giving developers a structured way to define what the software should do. Instead of asking AI to "create a grade calculator," a developer can provide detailed requirements such as grading rules, calculation formulas, and validation constraints. This allows the AI to generate results that are closer to the expected solution.
+
+BDD is useful because it describes software behavior from a user's perspective. The Given–When–Then format makes requirements easier to understand and communicate. Rather than focusing on technical implementation details, BDD focuses on how users expect the system to behave in different situations. This can help AI tools understand the intended functionality and can also improve communication among developers, testers, and stakeholders.
+
+TDD helps verify whether AI-generated code is correct by providing predefined test cases. Even if AI generates code that appears correct, it may still contain logical errors or fail in special situations. By running normal, boundary, and invalid-input test cases, developers can confirm whether the generated solution satisfies the requirements.
+
+In future software projects, I would combine all three approaches. I would start with SDD to define requirements and guide AI-generated outputs. Next, I would use BDD to describe user expectations and important system behaviors. Finally, I would apply TDD to create test cases and verify that the generated code works correctly. Using these three approaches together would provide a structured process for guiding, evaluating, and improving AI-assisted software development.
+
 
 ## 10. References & Usage of AI
 
