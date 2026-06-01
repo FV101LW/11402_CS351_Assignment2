@@ -50,6 +50,7 @@ Letter Grade: **B**
 ### 3.5 Grade Rules
 **Grade Determination Rules**
 |Final Score|Letter Grade|
+|-----------|------------|
 |90 < Score < 100 | A |
 |80 < Score < 90  | B |
 |70 < Score < 80  | C |
@@ -59,7 +60,7 @@ Letter Grade: **B**
 ### 3.6 Acceptance Criteria
 **AC-1: Correct Score Calculation**
 |Assignment|Midterm|Finals|Project|Final Score|Grade|
-| ------- |-----|------|
+| ------- |-----|------|----------|-----------|-----|
 |    82   |   76   |  88  |   90  |   84.2    |  B  |
 
 **Given:** that Assignment = 82, Midterms = 76, Final Exams, 88, and Project = 90. \
@@ -116,8 +117,8 @@ Test-Driven Development involves several test cases, usually 3 of them. Its proc
  Final Score = 23.4 + 16.4 + 25.5 + 16.0 \
  Final Score = 81.3 \
  **Expected Outcome**
- - Final Score: 81.3 \
- - Letter Grade: B \
+ - Final Score: 81.3
+ - Letter Grade: B
 ---
 #### Test Case 2:
 **Input**
@@ -130,7 +131,7 @@ Test-Driven Development involves several test cases, usually 3 of them. Its proc
  Final Score = (92 * 0.30) + (88 * 0.20) + (94 * 0.30) + (90 * 0.20) \
  Final Score = 27.6 + 17.6 + 28.2 + 18.0 \
  Final Score = 91.4 \
- **Expected Outcome** \
+ **Expected Outcome** 
  - Final Score: 91.4
  - Letter Grade: A
 ---
@@ -147,7 +148,7 @@ Test-Driven Development involves several test cases, usually 3 of them. Its proc
  Final Score = (90 * 0.30) + (90 * 0.20) + (90 * 0.30) + (90 * 0.20) \
  Final Score = 27.0 + 18.0 + 27.0 + 18.0 \
  Final Score = 90.0 \
- **Expected Outcome** \
+ **Expected Outcome** 
  - Final Score: 90.0
  - Letter Grade: A
 ---
@@ -162,7 +163,7 @@ Test-Driven Development involves several test cases, usually 3 of them. Its proc
  Final Score = (80 * 0.30) + (80 * 0.20) + (80 * 0.30) + (80 * 0.20) \
  Final Score = 24.0 + 16.0 + 24.0 + 16.0 \
  Final Score = 80.0 \
- **Expected Outcome** \
+ **Expected Outcome** 
  - Final Score: 80.0
  - Letter Grade: B
 ---
