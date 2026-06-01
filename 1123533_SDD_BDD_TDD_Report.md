@@ -112,12 +112,12 @@ Test-Driven Development involves several test cases, usually 3 of them. Its proc
 - Project: 80
 
  **Expected Calculation**
- Final Score = (78 * 0.30) + (82 * 0.20) + (85 * 0.30) + (80 * 0.20) 
- Final Score = 23.4 + 16.4 + 25.5 + 16.0
- Final Score = 81.3
+ Final Score = (78 * 0.30) + (82 * 0.20) + (85 * 0.30) + (80 * 0.20) \
+ Final Score = 23.4 + 16.4 + 25.5 + 16.0 \
+ Final Score = 81.3 \
  **Expected Outcome**
- - Final Score: 81.3
- - Letter Grade: B
+ - Final Score: 81.3 \
+ - Letter Grade: B \
 ---
 #### Test Case 2:
 **Input**
@@ -127,10 +127,10 @@ Test-Driven Development involves several test cases, usually 3 of them. Its proc
 - Project: 90
 
  **Expected Calculation**
- Final Score = (92 * 0.30) + (88 * 0.20) + (94 * 0.30) + (90 * 0.20) 
- Final Score = 27.6 + 17.6 + 28.2 + 18.0
- Final Score = 91.4
- **Expected Outcome**
+ Final Score = (92 * 0.30) + (88 * 0.20) + (94 * 0.30) + (90 * 0.20) \
+ Final Score = 27.6 + 17.6 + 28.2 + 18.0 \
+ Final Score = 91.4 \
+ **Expected Outcome** \
  - Final Score: 91.4
  - Letter Grade: A
 ---
@@ -144,10 +144,10 @@ Test-Driven Development involves several test cases, usually 3 of them. Its proc
 - Project: 90
 
  **Expected Calculation**
- Final Score = (90 * 0.30) + (90 * 0.20) + (90 * 0.30) + (90 * 0.20) 
- Final Score = 27.0 + 18.0 + 27.0 + 18.0
- Final Score = 90.0
- **Expected Outcome**
+ Final Score = (90 * 0.30) + (90 * 0.20) + (90 * 0.30) + (90 * 0.20) \
+ Final Score = 27.0 + 18.0 + 27.0 + 18.0 \
+ Final Score = 90.0 \
+ **Expected Outcome** \
  - Final Score: 90.0
  - Letter Grade: A
 ---
@@ -159,10 +159,10 @@ Test-Driven Development involves several test cases, usually 3 of them. Its proc
 - Project: 80
 
  **Expected Calculation**
- Final Score = (80 * 0.30) + (80 * 0.20) + (80 * 0.30) + (80 * 0.20) 
- Final Score = 24.0 + 16.0 + 24.0 + 16.0
- Final Score = 80.0
- **Expected Outcome**
+ Final Score = (80 * 0.30) + (80 * 0.20) + (80 * 0.30) + (80 * 0.20) \
+ Final Score = 24.0 + 16.0 + 24.0 + 16.0 \
+ Final Score = 80.0 \
+ **Expected Outcome** \
  - Final Score: 80.0
  - Letter Grade: B
 ---
