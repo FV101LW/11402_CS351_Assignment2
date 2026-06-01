@@ -27,11 +27,11 @@ The Student Grade Calculator's main purpose is to determine a student's final sc
 The overall grade is determined by the weighted average formula below: \
 **Final Score = (Assignment * 0.30) + (Midterm * 0.20) + (Finals * 0.30) + (Project * 0.20)** \
 **FR-2: Round Final Score** \
-The system shall round the final score to one decimal place before displaying the result.
+The system shall round the final score to one decimal place before displaying the result. \
 **FR-3: Assign Letter Grade** \
-The system shall assign a letter grade based on the rounded final score according to the grading rules.
+The system shall assign a letter grade based on the rounded final score according to the grading rules. \
 **FR-4: Validate Input** \
-The system shall only accept numeric scores between 0 to 100 for all assessment components.
+The system shall only accept numeric scores between 0 to 100 for all assessment components. \
 
 ### 3.3 Input
 The following inputs are accepted by the system:
@@ -68,14 +68,16 @@ Letter Grade: **B**
 |    82   |   76   |  88  |   90  |   84.2    |  B  |
 
 **Given:** that Assignment = 82, Midterms = 76, Final Exams, 88, and Project = 90. \
-When the system computes the final score, **then** the result shall be **84.2**.\
+When the system computes the final score, \
+**then** the result shall be **84.2**.\
 And the assigned grade will be **B**.
 
 **AC-2: Grade Boundary Verification**
-**Given:** a final score of 90. \ When the final grade is determined, then the assigned grade shall be **A**.
+**Given:** a final score of 90. \
+When the final grade is determined, then the assigned grade shall be **A**.
 
 **AC-3: Input Validation**
-Given a project score of = 105. \ 
+Given a project score of = 105. \
 When the user submits the scores, \
 Then the system shall **reject** the input. \
 And displays an error message informing that scores must be between 0 to 100.
