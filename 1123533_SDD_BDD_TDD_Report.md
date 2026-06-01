@@ -235,7 +235,7 @@ BDD is useful because it describes software behavior from a user's perspective. 
 
 TDD helps verify whether AI-generated code is correct by providing predefined test cases. Even if AI generates code that appears correct, it may still contain logical errors or fail in special situations. By running normal, boundary, and invalid-input test cases, developers can confirm whether the generated solution satisfies the requirements.
 
-In future software projects, I would combine all three approaches. I would start with SDD to define requirements and guide AI-generated outputs. Next, I would use BDD to describe user expectations and important system behaviors. Finally, I would apply TDD to create test cases and verify that the generated code works correctly. Using these three approaches together would provide a structured process for guiding, evaluating, and improving AI-assisted software development.
+In future software dev. projects, I would combine all three approaches. I would start with SDD to define requirements and guide AI-generated outputs. Next, I would use BDD to describe user expectations and important system behaviors. Finally, I would apply TDD to create test cases and verify that the generated code works correctly. Using these three approaches together would provide a structured process for guiding, evaluating, and improving AI-assisted software development.
 
 
 ## 10. References & Usage of AI
