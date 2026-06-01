@@ -45,7 +45,7 @@ All inputs must be numeric values within the range.
 
 ### 3.4 Output
 The system shall display: \
-**1.** Final Score (rounded to one decimal)
+**1.** Final Score (rounded to one decimal) \
 **2.** Letter Grade
 Example Output: \
 Final Score: **84.2** \
@@ -75,7 +75,8 @@ And the assigned grade will be **B**.
 **Given:** a final score of 90. \ When the final grade is determined, then the assigned grade shall be **A**.
 
 **AC-3: Input Validation**
-Given a project score of = 105. \ When the user submits the scores, \
+Given a project score of = 105. \ 
+When the user submits the scores, \
 Then the system shall **reject** the input. \
 And displays an error message informing that scores must be between 0 to 100.
 
@@ -182,7 +183,7 @@ Test-Driven Development involves several test cases, usually 3 of them. Its proc
 - Project: 85
 
  **Expected Calculation**
-Input validation should fail for Assignment is less than 0, out of valid range.
+Input validation should fail for Assignment is less than 0, out of valid range. \
  **Expected Outcome**
  - Final Score: Not Calculated
  - Letter Grade: Not Assigned
@@ -196,7 +197,7 @@ Input validation should fail for Assignment is less than 0, out of valid range.
 - Project: 90
 
  **Expected Calculation**
- Input validation should fail for Final Exam is greater than 100, out of valid range.
+ Input validation should fail for Final Exam is greater than 100, out of valid range. \
  **Expected Outcome**
  - Final Score: Not Calculated
  - Letter Grade: Not Assigned
@@ -241,9 +242,9 @@ In future software dev. projects, I would combine all three approaches. I would 
 ## 10. References & Usage of AI
 
 References:
-[1] LinkedIn: https://www.linkedin.com/pulse/specification-driven-development-sdd-true-parent-tdd-bdd-sampaio-ix7nf
-[2] Lunabase.AI: https://lunabase.ai/blog/specification-driven-development-the-complete-guide-to-tdd-bdd-and-sdd-in-2025
+[1] LinkedIn: https://www.linkedin.com/pulse/specification-driven-development-sdd-true-parent-tdd-bdd-sampaio-ix7nf \
+[2] Lunabase.AI: https://lunabase.ai/blog/specification-driven-development-the-complete-guide-to-tdd-bdd-and-sdd-in-2025 \
 [3] testRigor: https://testrigor.com/blog/tdd-vs-bdd-whats-the-difference-between-tdd-and-bdd/
 
 AI Tools:
-I mainly used ChatGPT for consulting me on the requirements of this assignment, and giving me guidance & tips when I request it to, especially when I'm stuck and ran out of ideas.
+I mainly used ChatGPT & Microsoft Copilot for consulting on the requirements of this assignment, and giving me guidance & tips when I request it to, especially when I'm stuck and ran out of ideas.
