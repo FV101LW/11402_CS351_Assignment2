@@ -14,7 +14,7 @@
  This is where Software Design Description, Behavior-Driven Development, and Test-Driven Development become helpful. SDD helps define the system's requirements and specifications, BDD describes how the system should behave from a user's point of view, and TDD establishes test cases that verify the system's functionality. Altogether, these approaches help create a structured framework that improves communication, reduces ambiguity, and helps ensure that AI-generated software artifacts align with the intended design and functionality.
 
 ## 2. Definition of SDD 
-**SDD**, or Specification-Driven Development, is the approach that treats specifications as the ultimate focus in all development aspects. This ranges from architecture design to testing & deployment.
+**SDD**, or Specification-Driven Development, is the approach that treats specifications as the ultimate focus in all development aspects. This ranges from architecture design to testing & deployment. By getting requirements defined clearly at the beginning of a project, developers can ensure that the final system meets the intended functionality and business objectives. SDD also helps reduce vagueness and provides a common reference for both developers and AI-assisted development tools.
 
 ## 3. SDD: Student Grade Calculator
 The Student Grade Calculator computes a student's final score using weighted assessment via components to determine the corresponding letter grade.
@@ -103,7 +103,7 @@ And the Project Score is 125 \
 And an error message should indicate that scores must be between 0 and 100. 
 
 ## 6. Definition of TDD
-Test-Driven Development involves several test cases, usually 3 of them. Its process is basically writing test case/s that fail, then writing more code to the point that it's enough to pass the test.
+Test-Driven Development involves several test cases, usually 3 of them. Its process is basically writing test case/s that fail, then writing more code to the point that it's enough to pass the test, and lastly improving the code quality without drastic changes to its behavior. This process is usually described as "Red, Green, Refactor". This method helps developers detect defects early on and ensures that the software continuously satisfies its requirements.
 
 ## 7. TDD: Student Grade Calculator
 
