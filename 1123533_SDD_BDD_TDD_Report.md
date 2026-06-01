@@ -7,10 +7,14 @@
 -Date: 2026-05-30  
 
 ## 1. Introduction
- In the current age of software development and computer science, artificial intelligence is gradually being involved. One could even say that AI is slowly dominating every aspect of the tech industry.
+ In the current age of software development and computer science, artificial intelligence is gradually being involved in the software engineering process. With AI Assistance in Software Development, code generation, documentation, test cases, and other software artifacts can be done more swiftly and efficiently. As advancements in AI technology continue, they are gradually become a vital tool in modern software development workflows. One could even say that AI is slowly dominating every aspect of the tech industry. To organize development workflow and ensure efficiency and coherence, certain methods or approaches have been conceptualized. The three specific methods are SDD, BDD, and TDD.
+
+ There are cases where AI does not automatically understand the developer's exact intentions or project requirements. Without clear instructions plus well-defined objectives, AI-generated results can be inaccurate, incomplete, or inconsistent with the desired outcome. Therefore, developers must provide precise requirements, expected behaviors, and validation criteria to effectively guide AI-assisted development.
+
+ This is where Software Design Description, Behavior-Driven Development, and Test-Driven Development become helpful. SDD helps define the system's requirements and specifications, BDD describes how the system should behave from a user's point of view, and TDD establishes test cases that verify the system's functionality. Altogether, these approaches help create a structured framework that improves communication, reduces ambiguity, and helps ensure that AI-generated software artifacts align with the intended design and functionality.
 
 ## 2. Definition of SDD 
-**SDD**, or Specification-Driven Development, is 
+**SDD**, or Specification-Driven Development, is the approach that treats specifications as the ultimate focus in all development aspects. This ranges from architecture design to testing & deployment.
 
 ## 3. SDD: Student Grade Calculator
 The Student Grade Calculator computes a student's final score using weighted assessment via components to determine the corresponding letter grade.
