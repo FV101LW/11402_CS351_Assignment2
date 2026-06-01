@@ -86,8 +86,8 @@ And the Midterm score is 78 \
 And the Final Score is 88 \
 And the Project Score is 85 \
 **When** the system calculates the final grade \
-**Then** the final score should be 84.0 \
-And the Letter Grade should be B. \
+**Then** the final score should be 84.0 
+And the Letter Grade should be B. 
 
 ### 2. Scenario 2: Invalid project score entered
 **Given** the assignment score is 75, \
@@ -95,8 +95,8 @@ And the Midterm score is 80 \
 And the Final Score is 82 \
 And the Project Score is 125 \
 **When** the system validates the input scores \
-**Then** the system should reject the input \
-And an error message should indicate that scores must be between 0 and 100. \
+**Then** the system should reject the input 
+And an error message should indicate that scores must be between 0 and 100. 
 
 ## 6. Definition of TDD
 Test-Driven Development involves several test cases, usually 3 of them. Its process is basically writing test case/s that fail, then writing more code to the point that it's enough to pass the test.
@@ -200,7 +200,18 @@ Input validation should fail for Assignment is less than 0, out of valid range.
 ---
 
 ## 8. Comparison of SDD, BDD, and TDD
-
+|Item|SDD|BDD|TDD|
+|----|---|---|---|
+|**Full Name**|Specification-Driven Development| Behavior-Driven Development|Test-Driven Development|
+|**Primary Goal**|Define detail system requirements before implementation|Describe how the system should behave from the user's perspective|Ensure code correctness through automated test|
+|**Main Focus**|Requirements, rules, and specifications|User behavior, business process, and scenarios|Verification, reliability, and code quality|
+|**Key Question**|What should the system do?|How should the system behave in real situations|Does the Implementation work properly?|
+|**Starting Point**|System specifications & requirements documents|User stories & acceptance criteria|Test cases written before code|
+|**Typical Format**|Functional specifications, requirements, diagrams|Given-When-Then scenarios|Unit tests & assertations|
+|**Primary Stakeholders**|System analysts, architects, developers|Customers, product owners, testers, developers|Developers & QA Engineers|
+|**Development Process**|Define specifications -> Design -> Implement|Define behavior scenarios -> Impement -> Validate|Write tests -> Write Code -> Refactor|
+|**Level of Detail**|High-Level System requirements & constraints|User-oriented interactions & outcomes|Low-level code functionality|
+|**Advantages**|Clear project scope & requirements|Improves communication between technical & non-technical members|Produces more reliable & maintainable code|
 
 ## 9. Reflection
 
