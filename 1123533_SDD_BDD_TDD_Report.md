@@ -216,9 +216,14 @@ Input validation should fail for Assignment is less than 0, out of valid range.
 |**Development Process**|Define specifications -> Design -> Implement|Define behavior scenarios -> Impement -> Validate|Write tests -> Write Code -> Refactor|
 |**Level of Detail**|High-Level System requirements & constraints|User-oriented interactions & outcomes|Low-level code functionality|
 |**Advantages**|Clear project scope & requirements|Improves communication between technical & non-technical members|Produces more reliable & maintainable code|
+|**Potential Limitation**|Specifications may become outdated if not maintained|Creating comprehensive behavior scenarios can be time-consuming|May require significant effort to write & maintain tests|
+|**Example for a Student Grade Calculator**|Define grading rules, input ranges, output requirements|Describe scenarios such as calculating grades for passing or failing students|Create tests to verify grade calculations for different scores|
+|**Documentation Style**|Requirement specifications and design documents|User stories & acceptance scenarios|Test suites & test reports|
+|**AI-Era Value**|Helps AI understand what features & requirements must be implemented|Helps AI understand expected user interactions and system behavior|Helps verify if AI-generated code produces correct results|
+|**Success Measure**|System meets document specifications|System behaves as expected in user scenarios|All test cases pass successfully|
+|**Best Used When**|Planning & defining project requirements|Capturing users needs and business processes|Ensuring software quality & regression prevention|
 
 ## 9. Reflection
-## 8. Reflection
 
 After learning about SDD, BDD, and TDD, I found that TDD is the easiest approach for me to understand. As an IT student, I am already familiar with testing programs by providing inputs and checking whether the outputs are correct. TDD follows a similar mindset since it focuses on defining test cases before implementation. By thinking about expected results first, it becomes easier to identify errors and verify that a system behaves as intended.
 
